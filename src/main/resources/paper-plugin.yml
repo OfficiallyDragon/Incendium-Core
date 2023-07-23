@@ -1,0 +1,7 @@
+name: IncendiumCore
+version: '${project.version}'
+main: dev.dragongames.incendiumcore.IncendiumCore
+api-version: '1.20'
+load: STARTUP
+authors: [OfficiallyDragon]
+description: The official plugin for Incendium SMP
