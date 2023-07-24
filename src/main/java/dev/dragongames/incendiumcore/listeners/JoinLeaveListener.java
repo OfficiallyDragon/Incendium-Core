@@ -19,7 +19,7 @@ public class JoinLeaveListener implements Listener {
 
         player.sendTitle(ChatColor.UNDERLINE + "Welcome To", ChatColor.GOLD + "" + ChatColor.BOLD + "Incendium SMP!", 10, 40, 10);
         player.spawnParticle(Particle.TOTEM, player.getLocation(), 1000);
-        player.playSound(player.getLocation(), Sound.ITEM_TOTEM_USE, 1, 1);
+        player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1, 1);
 
     }
 
